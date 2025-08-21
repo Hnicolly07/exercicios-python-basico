@@ -11,7 +11,7 @@ def main():
     s = (b+c)**2
 
     print(f"A expressão vale: {(r+s)/2:.2f}")
-    
+
 #função para ler a entrada e garantir que o número é positivo
 def ler_numero(msg):
     while True:
@@ -22,6 +22,6 @@ def ler_numero(msg):
             else:
                 print('O número deve ser positivo. Tente Novamente!')
         except ValueError:
-            print(f'Digite apenas números')
+            print('Digite apenas números')
 
 main()
